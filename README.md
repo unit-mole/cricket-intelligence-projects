@@ -1,5 +1,9 @@
 ﻿# Cricket Intelligence Projects
 
+## Live Demo
+
+[Launch the IPL Intelligence Production app on Hugging Face Spaces](https://huggingface.co/spaces/anmol-unitmole/ipl-intelligence-production)
+
 Production-oriented machine learning systems for cricket match prediction, probabilistic forecasting, tournament simulation, model evaluation and deployment.
 
 This repository is structured as a cricket machine-learning portfolio containing separate end-to-end projects under one common repository.

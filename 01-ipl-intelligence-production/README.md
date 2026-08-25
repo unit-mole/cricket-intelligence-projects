@@ -1,5 +1,9 @@
 # 🏏 IPL Championship Intelligence & Prediction
 
+## Live Demo
+
+[Launch the IPL Intelligence Production app on Hugging Face Spaces](https://huggingface.co/spaces/anmol-unitmole/ipl-intelligence-production)
+
 **Production-grade, leakage-safe IPL match forecasting and tournament intelligence built around the final V2 champion selected after four controlled model iterations.**
 
 > **Final production model:** IPL Intelligence Lab **V2**  
