@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "production_champion": "V2",
+  "strict_metrics_recomputed": {
+    "accuracy": 0.5422535211267606,
+    "balanced_accuracy": 0.55,
+    "f1": 0.5255474452554745,
+    "log_loss": 0.685847206895017,
+    "brier": 0.24636225510466153,
+    "ece": 0.0878613566915955,
+    "roc_auc": 0.5713414634146342
+  },
+  "strict_rows": 142,
+  "strict_years": [
+    2025,
+    2026
+  ],
+  "active_teams": [
+    "Chennai Super Kings",
+    "Delhi Capitals",
+    "Gujarat Titans",
+    "Kolkata Knight Riders",
+    "Lucknow Super Giants",
+    "Mumbai Indians",
+    "Punjab Kings",
+    "Rajasthan Royals",
+    "Royal Challengers Bengaluru",
+    "Sunrisers Hyderabad"
+  ],
+  "runtime_pair_checks": [
+    {
+      "team_a": "Chennai Super Kings",
+      "team_b": "Delhi Capitals",
+      "pretoss_probability": 0.49814178430487804,
+      "posttoss_probability": 0.49591739426113446,
+      "pretoss_symmetry_error": 0.0,
+      "posttoss_symmetry_error": 0.0
+    },
+    {
+      "team_a": "Delhi Capitals",
+      "team_b": "Gujarat Titans",
+      "pretoss_probability": 0.5133409402523703,
+      "posttoss_probability": 0.497770621940803,
+      "pretoss_symmetry_error": 1.1102230246251565e-16,
+      "posttoss_symmetry_error": 0.0
+    },
+    {
+      "team_a": "Gujarat Titans",
+      "team_b": "Kolkata Knight Riders",
+      "pretoss_probability": 0.4865358817138626,
+      "posttoss_probability": 0.47282420056055086,
+      "pretoss_symmetry_error": 0.0,
+      "posttoss_symmetry_error": 0.0
+    },
+    {
+      "team_a": "Kolkata Knight Riders",
+      "team_b": "Lucknow Super Giants",
+      "pretoss_probability": 0.4869117272853487,
+      "posttoss_probability": 0.46486650361638027,
+      "pretoss_symmetry_error": 0.0,
+      "posttoss_symmetry_error": 0.0
+    },
+    {
+      "team_a": "Lucknow Super Giants",
+      "team_b": "Mumbai Indians",
+      "pretoss_probability": 0.5033125181265026,
+      "posttoss_probability": 0.5034563951551596,
+      "pretoss_symmetry_error": 0.0,
+      "posttoss_symmetry_error": 2.220446049250313e-16
+    }
+  ],
+  "checksum_files_verified": 21,
+  "source_data_mode": "cricsheet_current_v2",
+  "source_data_date_max": "2026-05-31 00:00:00",
+  "governance": "Frozen V2 champion; no retraining occurred in production packaging."
+}

@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: ipl-intelligence-production
+Version: 1.0.0
+Summary: Production packaging of the frozen IPL Intelligence Lab V2 champion
+Requires-Python: <3.14,>=3.11
+License-File: LICENSE
+Dynamic: license-file

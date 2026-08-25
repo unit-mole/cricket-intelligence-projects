@@ -1,0 +1,166 @@
+{
+  "production_project": "IPL_Intelligence_Production",
+  "champion": "V2",
+  "source_folder": "D:\\AI-Training\\Cricket_Intelligence_Projects\\IPL_Intelligence_Lab_V2",
+  "source_data_mode": "cricsheet_current_v2",
+  "source_data_status": "PASS",
+  "source_date_max": "2026-05-31 00:00:00",
+  "strict_metrics_recomputed": {
+    "accuracy": 0.5422535211267606,
+    "balanced_accuracy": 0.55,
+    "f1": 0.5255474452554745,
+    "log_loss": 0.685847206895017,
+    "brier": 0.24636225510466153,
+    "ece": 0.0878613566915955,
+    "roc_auc": 0.5713414634146342
+  },
+  "files": [
+    {
+      "source": "artifacts/pretoss_model_bundle.joblib",
+      "destination": "artifacts/pretoss_model_bundle.joblib",
+      "required": true,
+      "bytes": 12120887,
+      "sha256": "a57c6aeeccd5c0f418bf2ca26e9918ae4ab232d183d114c13c738d4fb508bdb2"
+    },
+    {
+      "source": "artifacts/posttoss_model_bundle.joblib",
+      "destination": "artifacts/posttoss_model_bundle.joblib",
+      "required": true,
+      "bytes": 18629099,
+      "sha256": "db3959c55f0e5d78bb038d6d34845dcd3127a1f8ee4d717c4718d984678dcaa8"
+    },
+    {
+      "source": "artifacts/model_metadata_pretoss.json",
+      "destination": "artifacts/model_metadata_pretoss.json",
+      "required": true,
+      "bytes": 4004,
+      "sha256": "e867de7adaa27f911c12135b5a731e01836db201b30d5e499481c37f7815e497"
+    },
+    {
+      "source": "artifacts/model_metadata_posttoss.json",
+      "destination": "artifacts/model_metadata_posttoss.json",
+      "required": true,
+      "bytes": 4344,
+      "sha256": "9ae0cf83562c93ca5148f16c90e958b8c5da220a56d8b931c7ce931111a9ffc4"
+    },
+    {
+      "source": "data/processed/latest_team_snapshot_v2.json",
+      "destination": "data/processed/latest_team_snapshot_v2.json",
+      "required": true,
+      "bytes": 432114,
+      "sha256": "1c16e6dac71e835bd53eacfb3d41cb4287f3514e01398b733e1a5a5ff01d5b33"
+    },
+    {
+      "source": "data/processed/feature_schema_v2.json",
+      "destination": "data/processed/feature_schema_v2.json",
+      "required": true,
+      "bytes": 3310,
+      "sha256": "b56a520b2d2ce6585c554e48513fbfa327c1945ec775f7922844918c99295586"
+    },
+    {
+      "source": "data/metadata/data_validation.json",
+      "destination": "data/metadata/source_v2_data_validation.json",
+      "required": true,
+      "bytes": 521,
+      "sha256": "feea9f35f70ad571849744db91906f4eaf59c052d1c0abded3479b3bf94bed89"
+    },
+    {
+      "source": "reports/strict_test_predictions_pretoss.csv",
+      "destination": "reports/strict_test_predictions_pretoss.csv",
+      "required": true,
+      "bytes": 23954,
+      "sha256": "adca8cbc7bf931d8d31248e6b8f705ca3ba83793353e53cff6d24821d7ae7f14"
+    },
+    {
+      "source": "reports/strict_test_predictions_posttoss.csv",
+      "destination": "reports/strict_test_predictions_posttoss.csv",
+      "required": true,
+      "bytes": 24133,
+      "sha256": "ee6144e86b37a5a177bf8e1782539145eb416fe72aa26124705c4e9df79e7d1f"
+    },
+    {
+      "source": "reports/strict_test_by_year_pretoss.csv",
+      "destination": "reports/strict_test_by_year_pretoss.csv",
+      "required": true,
+      "bytes": 338,
+      "sha256": "a8999ee0e0cecb82808aaf39c24c6043eaefa585bedb0024fbc87fbcb353f124"
+    },
+    {
+      "source": "reports/strict_test_by_year_posttoss.csv",
+      "destination": "reports/strict_test_by_year_posttoss.csv",
+      "required": true,
+      "bytes": 339,
+      "sha256": "34d05d736b7c13e407887b4bbadeb85e3115c79dcd1e84e0d4e44fea416de0aa"
+    },
+    {
+      "source": "reports/model_comparison_pretoss.csv",
+      "destination": "reports/model_comparison_pretoss.csv",
+      "required": true,
+      "bytes": 1450,
+      "sha256": "e6b95c972377a1a2cf3cc43860d61c7e380b9aa478cfa9f36aa7ef5f39a6f38f"
+    },
+    {
+      "source": "reports/model_comparison_posttoss.csv",
+      "destination": "reports/model_comparison_posttoss.csv",
+      "required": true,
+      "bytes": 1491,
+      "sha256": "c9ac097fc9744d5ac01bb86b08d93b093a8c1f1b199064bffe0c77e5795fa5c6"
+    },
+    {
+      "source": "reports/expanding_window_backtest_pretoss.csv",
+      "destination": "reports/expanding_window_backtest_pretoss.csv",
+      "required": false,
+      "bytes": 1935,
+      "sha256": "81e65220a09acc4f3ee8a9dba86217e3690ddbbaebe04b69ab23fe6bec4f3741"
+    },
+    {
+      "source": "reports/expanding_window_backtest_posttoss.csv",
+      "destination": "reports/expanding_window_backtest_posttoss.csv",
+      "required": false,
+      "bytes": 1961,
+      "sha256": "f1e7dcfef8fd13bc7ce7dd515059479c62eab1c1b8c79d900e36b5401e7307b5"
+    },
+    {
+      "source": "reports/permutation_importance_pretoss.csv",
+      "destination": "reports/permutation_importance_pretoss.csv",
+      "required": false,
+      "bytes": 3097,
+      "sha256": "214ea2ea1aa8a5d41d96351ceece96906eda1f4412fad407f1fd199c07f1825a"
+    },
+    {
+      "source": "reports/permutation_importance_posttoss.csv",
+      "destination": "reports/permutation_importance_posttoss.csv",
+      "required": false,
+      "bytes": 3750,
+      "sha256": "f0032a8e777cb0d8def97f58509d36299b47f0ef505a5575c9309b94156cf129"
+    },
+    {
+      "source": "reports/championship_simulation_v2.csv",
+      "destination": "reports/championship_simulation_v2.csv",
+      "required": false,
+      "bytes": 588,
+      "sha256": "cb93e8889d5f757b04dfce5a10882ea2da42cf6e54a3552a27512da7f95cc224"
+    },
+    {
+      "source": "reports/github_metrics.json",
+      "destination": "reports/source_v2_github_metrics.json",
+      "required": false,
+      "bytes": 6088,
+      "sha256": "64ad79159658b4046e444d9991bcfa9a16d11a4e865bca01db2985f31583fc2f"
+    },
+    {
+      "source": "artifacts/ensemble_weights_pretoss.json",
+      "destination": "artifacts/ensemble_weights_pretoss.json",
+      "required": false,
+      "bytes": 121,
+      "sha256": "cfa0ffe57480c042ea619bbc084d075293d7b75a7550ee6eaf1fb75d6e5d84cb"
+    },
+    {
+      "source": "artifacts/ensemble_weights_posttoss.json",
+      "destination": "artifacts/ensemble_weights_posttoss.json",
+      "required": false,
+      "bytes": 118,
+      "sha256": "992ff62766f8ab6e0f82530257a2bfdf520c99bda442285b5b7efc7ad1b5d635"
+    }
+  ]
+}

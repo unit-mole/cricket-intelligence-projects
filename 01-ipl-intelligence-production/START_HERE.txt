@@ -1,0 +1,22 @@
+IPL INTELLIGENCE PRODUCTION — START HERE
+========================================
+
+This is NOT V5.
+This is the final production wrapper around the already-accepted V2 champion.
+
+Keep this folder next to IPL_Intelligence_Lab_V2.
+
+Run in order:
+
+1. 00_SETUP_ENVIRONMENT.bat
+2. CHECK_SYSTEM.bat
+3. 01_IMPORT_V2_CHAMPION.bat
+4. 02_VERIFY_PRODUCTION_PACKAGE.bat
+5. 03_RUN_TESTS.bat
+6. 04_LAUNCH_LOCAL_APP.bat
+
+Only after local QA:
+7. 05_PREPARE_GITHUB_RELEASE.bat
+8. 06_BUILD_HF_DEPLOYMENT_BUNDLE.bat
+
+Do not retrain V2 in this repository. The purpose is to freeze, verify, package, document and deploy the winning model.

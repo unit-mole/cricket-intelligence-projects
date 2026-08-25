@@ -1,0 +1,17 @@
+{
+  "source": "accepted local V2 strict out-of-time evaluation",
+  "champion": "V2",
+  "prediction_mode": "pretoss",
+  "strict_test_years": [2025, 2026],
+  "strict_test_rows": 142,
+  "metrics": {
+    "accuracy": 0.5422535211267606,
+    "balanced_accuracy": 0.55,
+    "f1": 0.5255474452554745,
+    "log_loss": 0.685847206895017,
+    "brier": 0.24636225510466153,
+    "ece": 0.0878613566915955,
+    "roc_auc": 0.5713414634146342
+  },
+  "governance_note": "These metrics are frozen. The production package imports the already-selected V2 artifacts and verifies the strict predictions reproduce them; it does not retrain after model selection."
+}

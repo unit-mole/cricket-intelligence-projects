@@ -1,0 +1,18 @@
+{
+  "rows": 1218,
+  "date_min": "2008-04-18 00:00:00",
+  "date_max": "2026-05-31 00:00:00",
+  "teams": 15,
+  "duplicate_match_ids": 0,
+  "same_team_rows": 0,
+  "winner_not_in_team_universe": 0,
+  "ball_by_ball_match_rows": 1218,
+  "ball_by_ball_coverage": 1.0,
+  "lineup_match_rows": 1218,
+  "lineup_coverage": 1.0,
+  "player_match_rows": 27350,
+  "issues": [],
+  "status": "PASS",
+  "mode": "cricsheet_current_v2",
+  "raw_zip_sha256": "841b98290a08bdf2a063a9f4d6342fb2363ff246491ed3db4c571bddb6ea2a79"
+}

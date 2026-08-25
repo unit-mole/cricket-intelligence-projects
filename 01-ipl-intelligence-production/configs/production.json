@@ -1,0 +1,20 @@
+{
+  "project_name": "IPL Intelligence Production",
+  "project_version": "1.0.0",
+  "champion_model_version": "V2",
+  "champion_source_folder": "IPL_Intelligence_Lab_V2",
+  "strict_test_years": [2025, 2026],
+  "strict_test_rows": 142,
+  "data_mode_required": "cricsheet_current_v2",
+  "random_seed": 42,
+  "app": {
+    "title": "IPL Championship Intelligence & Prediction",
+    "subtitle": "Leakage-Safe Probabilistic Forecasting, Model Governance & Tournament Simulation",
+    "default_simulations": 25000
+  },
+  "deployment": {
+    "huggingface_sdk": "gradio",
+    "python": "3.12",
+    "model_artifact_policy": "Include only the frozen V2 production bundles and snapshot after local verification"
+  }
+}

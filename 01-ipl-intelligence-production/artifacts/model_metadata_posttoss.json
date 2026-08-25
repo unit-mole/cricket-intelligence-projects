@@ -1,0 +1,176 @@
+{
+  "project_version": "2.0.0",
+  "mode": "posttoss",
+  "features": [
+    "elo_diff",
+    "fast_elo_diff",
+    "slow_elo_diff",
+    "form5_diff",
+    "form10_diff",
+    "form20_diff",
+    "form_ewm_diff",
+    "season_form_diff",
+    "opponent_adjusted_form_diff",
+    "strength_of_schedule_diff",
+    "venue_form_diff",
+    "venue_experience_log_diff",
+    "h2h_advantage",
+    "runs10_diff",
+    "run_rate10_diff",
+    "score_consistency_advantage",
+    "rr_consistency_advantage",
+    "wickets_taken10_diff",
+    "wickets_lost10_advantage",
+    "batting_dot_pct_advantage",
+    "batting_boundary_pct_diff",
+    "bowling_dot_pct_diff",
+    "bowling_boundary_pct_advantage",
+    "pp_batting_rr_diff",
+    "middle_batting_rr_diff",
+    "death_batting_rr_diff",
+    "pp_bowling_rr_advantage",
+    "middle_bowling_rr_advantage",
+    "death_bowling_rr_advantage",
+    "pp_bowling_wicket_rate_diff",
+    "middle_bowling_wicket_rate_diff",
+    "death_bowling_wicket_rate_diff",
+    "death_acceleration_diff",
+    "chase_form_diff",
+    "defend_form_diff",
+    "experience_log_diff",
+    "knockout_form_diff",
+    "rest_days_diff",
+    "squad_batting_runs_diff",
+    "squad_batting_sr_diff",
+    "squad_bowling_wickets_diff",
+    "squad_bowling_economy_advantage",
+    "squad_experience_log_diff",
+    "squad_continuity_diff",
+    "squad_rookie_load_advantage",
+    "toss_advantage",
+    "team1_chasing",
+    "venue_chase_interaction",
+    "lineup_batting_runs_diff",
+    "lineup_batting_sr_diff",
+    "lineup_bowling_wickets_diff",
+    "lineup_bowling_economy_advantage",
+    "lineup_experience_log_diff",
+    "lineup_continuity_diff",
+    "lineup_rookie_load_advantage"
+  ],
+  "feature_count": 55,
+  "rows": 1218,
+  "date_min": "2008-04-18",
+  "date_max": "2026-05-31",
+  "training_years": [
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "tuning_years": [
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "selection_years": [
+    2022,
+    2023
+  ],
+  "calibration_years": [
+    2024
+  ],
+  "strict_test_years": [
+    2025,
+    2026
+  ],
+  "strict_test_metrics": {
+    "accuracy": 0.4859154929577465,
+    "balanced_accuracy": 0.5235772357723578,
+    "f1": 0.5575757575757576,
+    "log_loss": 0.7107533516028129,
+    "brier": 0.25858098886359737,
+    "ece": 0.12126925456744747,
+    "roc_auc": 0.5373983739837398
+  },
+  "calibrator": "platt",
+  "production_calibrator": "platt",
+  "component_weights": {
+    "extra_trees": 0.5457009484494191,
+    "random_forest": 0.26159185454861883,
+    "logistic": 0.19270719700196215
+  },
+  "best_params": {
+    "logistic": {
+      "C": 0.03
+    },
+    "random_forest": {
+      "n_estimators": 400,
+      "min_samples_leaf": 18,
+      "max_features": 0.6,
+      "max_depth": null
+    },
+    "extra_trees": {
+      "n_estimators": 1000,
+      "min_samples_leaf": 15,
+      "max_features": 0.85,
+      "max_depth": 10
+    },
+    "hist_gradient_boosting": {
+      "min_samples_leaf": 15,
+      "max_leaf_nodes": 7,
+      "max_iter": 250,
+      "learning_rate": 0.035,
+      "l2_regularization": 12.0
+    },
+    "gradient_boosting": {
+      "subsample": 0.7,
+      "n_estimators": 200,
+      "min_samples_leaf": 4,
+      "max_depth": 3,
+      "learning_rate": 0.035
+    },
+    "xgboost": {
+      "subsample": 1.0,
+      "reg_lambda": 5.0,
+      "reg_alpha": 0.1,
+      "n_estimators": 300,
+      "min_child_weight": 10,
+      "max_depth": 2,
+      "learning_rate": 0.035,
+      "colsample_bytree": 0.85
+    },
+    "lightgbm": {
+      "subsample": 0.9,
+      "reg_lambda": 7.0,
+      "reg_alpha": 0.0,
+      "num_leaves": 7,
+      "n_estimators": 300,
+      "min_child_samples": 15,
+      "learning_rate": 0.035,
+      "colsample_bytree": 0.85
+    },
+    "catboost": {
+      "random_strength": 0.2,
+      "learning_rate": 0.05,
+      "l2_leaf_reg": 12.0,
+      "iterations": 500,
+      "depth": 4
+    }
+  },
+  "failed_models": {},
+  "training_mode": "full",
+  "gpu_requested": false,
+  "scientific_note": "Strict test predictions are annual walk-forward predictions. Production model is refit on all known matches only after strict evaluation."
+}

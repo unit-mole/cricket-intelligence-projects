@@ -1,0 +1,5 @@
+system,status,comparison_type,accuracy,balanced_accuracy,f1,log_loss,brier,ece,roc_auc,probability_objective
+V1_architecture_replay,baseline,"exact same matches; V1 architecture replay with strict chronology",0.528169,0.533333,0.503704,0.689573,0.248190,0.086957,0.561382,0.760316
+V2_pretoss,CHAMPION,"exact same matches from V2 strict per-match predictions",0.542254,0.550000,0.525547,0.685847,0.246362,0.087861,0.571341,0.756224
+V3_pretoss,rejected,"exact same matches from V3 strict predictions",0.478873,0.488415,0.471429,0.697622,0.252179,0.087552,0.531707,0.769422
+V4_pretoss,rejected,"exact same matches from V4 strict predictions",0.443662,0.437805,0.377953,0.694701,0.250777,0.077176,0.419512,0.765112

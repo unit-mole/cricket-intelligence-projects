@@ -1,0 +1,23 @@
+{
+  "V1": {
+    "status": "baseline",
+    "decision": "Superseded",
+    "lesson": "Established the first leakage-safe architecture replay baseline, but V2 improved probability quality and discrimination on the same strict window."
+  },
+  "V2": {
+    "status": "champion",
+    "decision": "Accepted for production",
+    "lesson": "Best same-window accuracy, ROC-AUC, log loss, Brier score, and overall probability objective among the four controlled model versions."
+  },
+  "V3": {
+    "status": "rejected",
+    "decision": "Rejected by pre-registered gate",
+    "lesson": "Aggressive feature-family selection plus stacking did not generalize to 2025-2026 and underperformed V2."
+  },
+  "V4": {
+    "status": "rejected",
+    "decision": "Rejected; use V2",
+    "lesson": "Player-first/roster-oriented challenger did not solve the recent-season regime shift. Paired bootstrap P(V4 better than V2)=0.259."
+  },
+  "final_decision": "Freeze V2; no V5 without genuinely new authoritative data."
+}
