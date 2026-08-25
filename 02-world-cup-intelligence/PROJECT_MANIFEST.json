@@ -1,0 +1,8 @@
+{
+  "project": "ICC_World_Cup_Intelligence_Production",
+  "champion_model": "V1",
+  "tournament_engine": "V2_2027",
+  "github_folder": "02-world-cup-intelligence",
+  "hf_space": "icc-world-cup-intelligence",
+  "expected_tests": 25
+}

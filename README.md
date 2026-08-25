@@ -32,7 +32,18 @@ Four modeling architectures were evaluated under controlled temporal testing. V2
 
 ### 02 - ICC World Cup Intelligence Engine
 
-The second project will extend the same production-oriented approach to ICC ODI World Cup match forecasting and tournament simulation. It will be added after its modeling and validation pipeline is completed.
+Production ODI World Cup intelligence system combining the accepted **V1 forecasting model** with the corrected **V2 2027 tournament simulator**. Model selection and simulator selection are documented separately.
+
+- Champion model: **V1**
+- Tournament engine: **V2 corrected 2027 format (57 matches)**
+- Same-window V1 accuracy: **59.02%**
+- Same-window V1 ROC-AUC: **0.6270**
+- V2 challenger accuracy: **60.93%**
+- V2 challenger ROC-AUC: **0.6421**
+- Model decision: V2 rejected by the pre-registered probability objective
+- Live demo: to be added after Hugging Face deployment
+
+[Explore Project 02](./02-world-cup-intelligence)
 
 ## Engineering Principles
 

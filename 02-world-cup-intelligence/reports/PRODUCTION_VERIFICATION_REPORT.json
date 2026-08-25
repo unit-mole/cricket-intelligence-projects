@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "champion_model": "V1",
+  "tournament_engine": "V2_2027",
+  "data_mode": "cricsheet_current",
+  "runtime_pair_checks": [
+    {
+      "a": "India",
+      "b": "New Zealand",
+      "p": 0.6175216359564527
+    },
+    {
+      "a": "New Zealand",
+      "b": "Australia",
+      "p": 0.44910579852744253
+    },
+    {
+      "a": "Australia",
+      "b": "Pakistan",
+      "p": 0.5832602097193009
+    },
+    {
+      "a": "Pakistan",
+      "b": "South Africa",
+      "p": 0.45695307119833717
+    },
+    {
+      "a": "South Africa",
+      "b": "England",
+      "p": 0.48220307060990997
+    }
+  ],
+  "scenario_participants": [
+    "India",
+    "New Zealand",
+    "Australia",
+    "Pakistan",
+    "South Africa",
+    "England",
+    "Sri Lanka",
+    "Bangladesh",
+    "Scotland",
+    "West Indies",
+    "United States of America",
+    "Netherlands",
+    "Ireland",
+    "Namibia"
+  ],
+  "official_match_counts": {
+    "super_series": 3,
+    "round2": 30,
+    "super7": 21,
+    "semifinals": 2,
+    "final": 1,
+    "total": 57
+  },
+  "explainability_features": 16,
+  "governance_decision": "V2_REJECTED_USE_V1_MODEL_WITH_V2_SIMULATOR"
+}

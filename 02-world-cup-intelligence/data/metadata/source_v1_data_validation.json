@@ -1,0 +1,10 @@
+{
+  "rows": 2440,
+  "date_min": "2002-06-27 00:00:00",
+  "date_max": "2026-08-13 00:00:00",
+  "teams": 27,
+  "issues": [],
+  "status": "PASS",
+  "mode": "cricsheet_current",
+  "raw_zip_sha256": "041f1986f492751ff007a08a560015540a6c5e95cf6046523e375f8382f28bbd"
+}

@@ -1,0 +1,4 @@
+@echo off
+call 01_IMPORT_FINAL_COMPONENTS.bat
+call 02_VERIFY_PRODUCTION_PACKAGE.bat
+call 03_RUN_TESTS.bat

@@ -1,0 +1,66 @@
+{
+  "production_project": "ICC_World_Cup_Intelligence_Production",
+  "champion_model": "V1",
+  "accepted_simulator": "V2_2027",
+  "source_v1": "D:\\AI-Training\\Cricket_Intelligence_Projects\\ICC_World_Cup_Intelligence_Engine",
+  "source_v2": "D:\\AI-Training\\Cricket_Intelligence_Projects\\ICC_World_Cup_Intelligence_Engine_V2",
+  "v1_data_mode": "cricsheet_current",
+  "v1_status": "PASS",
+  "frozen_v1_metrics": {
+    "accuracy": 0.5901639344262295,
+    "balanced_accuracy": 0.5907334750965887,
+    "f1": 0.5810055865921788,
+    "log_loss": 0.6680320831980425,
+    "brier": 0.23770609637010198,
+    "ece": 0.05429774665804824,
+    "roc_auc": 0.6270029051484021,
+    "probability_objective": 0.7328883819563728
+  },
+  "v2_challenger_metrics": {
+    "accuracy": 0.6092896174863388,
+    "balanced_accuracy": 0.6106651891341459,
+    "f1": 0.6060606060606061,
+    "log_loss": 0.6678804861398963,
+    "brier": 0.2367003589073366,
+    "ece": 0.06553272656859949,
+    "roc_auc": 0.6420677468627392,
+    "probability_objective": 0.7336088485235903
+  },
+  "files": [
+    {
+      "path": "artifacts/model_bundle.joblib",
+      "bytes": 48968298,
+      "sha256": "4fdde9617b05969f86c76084e2c79c828fff88b0554bf38178e68fbd607e7852"
+    },
+    {
+      "path": "artifacts/model_metadata_v1.json",
+      "bytes": 1652,
+      "sha256": "be44203b54489635f1b91ca94e2319a7e855159b6023dd71d371fca04786b5d6"
+    },
+    {
+      "path": "data/processed/latest_team_snapshot.json",
+      "bytes": 8916,
+      "sha256": "774fed2f20c1b0b94c30d8188cf172c58dc382eeb1524e7cb454bf144a14ac40"
+    },
+    {
+      "path": "data/processed/feature_schema.json",
+      "bytes": 407,
+      "sha256": "c5f49e9551a12ba893179f1f65ffdc17b1abe94b0bea7145791cac105c66a520"
+    },
+    {
+      "path": "reports/FROZEN_V1_V2_COMPARISON.csv",
+      "bytes": 557,
+      "sha256": "995a9641a3ac5c6e92f8503371a583aa4a303f966bcdf46ec49d15cfea44210c"
+    },
+    {
+      "path": "reports/FROZEN_CHAMPION_METRICS.json",
+      "bytes": 861,
+      "sha256": "de6cb6c225a2c2e3a682a2d896f2b396ea9c7c30a04cb144615807ae51b3fcfe"
+    },
+    {
+      "path": "reports/production_permutation_importance.csv",
+      "bytes": 1011,
+      "sha256": "4e796e17185f99ecc9868176108bbc9bdeebfa8ca3c2fefd6d250ae501451f21"
+    }
+  ]
+}

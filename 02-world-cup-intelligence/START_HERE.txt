@@ -1,0 +1,4 @@
+FINAL WORLD CUP PRODUCTION PACKAGE
+
+Run 00_SETUP_ENVIRONMENT.bat, then CHECK_SYSTEM.bat, then 01_IMPORT_FINAL_COMPONENTS.bat.
+Do not delete or rename the sibling V1/V2 folders until import/verification is complete.

@@ -1,0 +1,18 @@
+{
+  "project": "ICC World Cup Intelligence Production",
+  "version": "1.0.0",
+  "champion_model": "V1",
+  "tournament_engine": "V2_2027",
+  "governance_decision": "V2_REJECTED_USE_V1_MODEL_WITH_V2_SIMULATOR",
+  "github_folder": "02-world-cup-intelligence",
+  "huggingface_space": "icc-world-cup-intelligence",
+  "random_seed": 42,
+  "official_2027_match_counts": {
+    "super_series": 3,
+    "round2": 30,
+    "super7": 21,
+    "semifinals": 2,
+    "final": 1,
+    "total": 57
+  }
+}

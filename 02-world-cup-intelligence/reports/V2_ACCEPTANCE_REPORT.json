@@ -1,0 +1,34 @@
+{
+  "decision": "V2_REJECTED_USE_V1_MODEL_WITH_V2_SIMULATOR",
+  "checks": {
+    "data_mode_current": true,
+    "v2_logloss_below_random": true,
+    "v2_brier_below_random": true,
+    "v2_auc_threshold": true,
+    "v2_ece_threshold": true,
+    "exact_v1_available": true,
+    "recent_year_stability": true,
+    "v2_probability_objective_improves_v1": false,
+    "v2_accuracy_not_materially_worse": true,
+    "v2_brier_not_materially_worse": true
+  },
+  "v1_metrics": {
+    "accuracy": 0.5901639344262295,
+    "balanced_accuracy": 0.5907334750965887,
+    "f1": 0.5810055865921788,
+    "log_loss": 0.6680320831980425,
+    "brier": 0.23770609637010198,
+    "ece": 0.05429774665804827,
+    "roc_auc": 0.6270029051484021
+  },
+  "v2_metrics": {
+    "accuracy": 0.6092896174863388,
+    "balanced_accuracy": 0.6106651891341459,
+    "f1": 0.6060606060606061,
+    "log_loss": 0.6678804861398963,
+    "brier": 0.2367003589073366,
+    "ece": 0.06553272656859949,
+    "roc_auc": 0.6420677468627392
+  },
+  "exact_v1_common_window": true
+}

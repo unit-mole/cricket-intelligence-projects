@@ -1,0 +1,20 @@
+{
+  "feature_columns": [
+    "elo_diff",
+    "form5_diff",
+    "form10_diff",
+    "form20_diff",
+    "season_form_diff",
+    "venue_form_diff",
+    "h2h_advantage",
+    "runs10_diff",
+    "run_rate10_diff",
+    "wickets_taken10_diff",
+    "wickets_lost10_diff",
+    "chase_form_diff",
+    "defend_form_diff",
+    "experience_log_diff",
+    "knockout_form_diff",
+    "rest_days_diff"
+  ]
+}

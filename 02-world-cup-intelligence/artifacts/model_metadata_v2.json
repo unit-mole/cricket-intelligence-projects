@@ -1,0 +1,44 @@
+{
+  "data_mode": "cricsheet_current_v2",
+  "strict_test_start": "2023-05-05",
+  "strict_rows": 366,
+  "strict_test_end": "2026-08-13",
+  "selected_features": [
+    "elo_diff",
+    "elo_fast_diff",
+    "elo_slow_diff",
+    "form3_diff",
+    "form5_diff",
+    "form10_diff",
+    "form20_diff",
+    "ewm_form_diff",
+    "season_form_diff",
+    "streak_diff",
+    "opponent_adjusted_form_diff",
+    "strength_schedule_diff",
+    "h2h_advantage"
+  ],
+  "selected_strategy": {
+    "type": "mean",
+    "models": [
+      "extra_trees",
+      "random_forest"
+    ]
+  },
+  "calibration": "none",
+  "strict_test_metrics": {
+    "accuracy": 0.6092896174863388,
+    "balanced_accuracy": 0.6106651891341459,
+    "f1": 0.6060606060606061,
+    "log_loss": 0.6678804861398963,
+    "brier": 0.2367003589073366,
+    "ece": 0.06553272656859949,
+    "roc_auc": 0.6420677468627392
+  },
+  "selection_year": 2021,
+  "calibration_window": [
+    "2022-01-01",
+    "2023-05-03"
+  ],
+  "seed": 42
+}

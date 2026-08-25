@@ -1,0 +1,29 @@
+{
+  "champion_model": "V1",
+  "same_window_rows": 366,
+  "same_window_metrics": {
+    "accuracy": 0.5901639344262295,
+    "balanced_accuracy": 0.5907334750965887,
+    "f1": 0.5810055865921788,
+    "log_loss": 0.6680320831980425,
+    "brier": 0.23770609637010198,
+    "ece": 0.05429774665804824,
+    "roc_auc": 0.6270029051484021,
+    "probability_objective": 0.7328883819563728
+  },
+  "v2_metrics": {
+    "accuracy": 0.6092896174863388,
+    "balanced_accuracy": 0.6106651891341459,
+    "f1": 0.6060606060606061,
+    "log_loss": 0.6678804861398963,
+    "brier": 0.2367003589073366,
+    "ece": 0.06553272656859949,
+    "roc_auc": 0.6420677468627392,
+    "probability_objective": 0.7336088485235903
+  },
+  "decision": "V1 model + V2 official-2027 simulator",
+  "source_window": {
+    "start": "2023-05-05",
+    "end": "2026-08-13"
+  }
+}

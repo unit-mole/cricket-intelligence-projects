@@ -1,0 +1,59 @@
+{
+  "seed": 42,
+  "data_mode": "cricsheet_current",
+  "rows": 2440,
+  "train_rows": 1708,
+  "validation_rows": 366,
+  "test_rows": 366,
+  "train_end": "2019-06-12",
+  "validation_start": "2019-06-14",
+  "validation_end": "2023-05-03",
+  "test_start": "2023-05-05",
+  "test_end": "2026-08-13",
+  "features": [
+    "elo_diff",
+    "form5_diff",
+    "form10_diff",
+    "form20_diff",
+    "season_form_diff",
+    "venue_form_diff",
+    "h2h_advantage",
+    "runs10_diff",
+    "run_rate10_diff",
+    "wickets_taken10_diff",
+    "wickets_lost10_diff",
+    "chase_form_diff",
+    "defend_form_diff",
+    "experience_log_diff",
+    "knockout_form_diff",
+    "rest_days_diff"
+  ],
+  "ensemble_test_metrics": {
+    "accuracy": 0.587431693989071,
+    "balanced_accuracy": 0.587431693989071,
+    "f1": 0.5863013698630137,
+    "log_loss": 0.6686635772020137,
+    "brier": 0.23802121170288806,
+    "ece": 0.027294446844034197,
+    "roc_auc": 0.6233390068380662
+  },
+  "ensemble_validation_metrics": {
+    "accuracy": 0.6120218579234973,
+    "balanced_accuracy": 0.6120218579234973,
+    "f1": 0.6141304347826086,
+    "log_loss": 0.6515502213120984,
+    "brier": 0.23003824145146223,
+    "ece": 0.015618159760413997,
+    "roc_auc": 0.6603063692555764
+  },
+  "component_weights": {
+    "logistic": 0.12650717670395736,
+    "random_forest": 0.12995171209944062,
+    "extra_trees": 0.1324734542454476,
+    "hist_gradient_boosting": 0.12128083011769994,
+    "gradient_boosting": 0.12441533634495196,
+    "xgboost": 0.12042875295357555,
+    "lightgbm": 0.12068831415697619,
+    "catboost": 0.12425442337795085
+  }
+}

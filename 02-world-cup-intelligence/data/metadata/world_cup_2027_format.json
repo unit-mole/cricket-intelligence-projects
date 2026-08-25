@@ -1,0 +1,55 @@
+{
+  "competition": "ICC Men's Cricket World Cup 2027",
+  "status": "official format confirmed by ICC",
+  "format_announced": "2026-07-15",
+  "hosts": [
+    "South Africa",
+    "Zimbabwe",
+    "Namibia"
+  ],
+  "teams": 14,
+  "total_matches": 57,
+  "round_1": {
+    "name": "Super Series",
+    "teams": 3,
+    "matches": 3,
+    "description": "Seeds/ranks 12-14 play round robin; top team advances to Round 2."
+  },
+  "round_2": {
+    "name": "Group Round",
+    "teams": 12,
+    "groups": 2,
+    "teams_per_group": 6,
+    "matches": 30,
+    "advancement": "Top three from each group plus next best-placed fourth-place team across both groups advance to Super 7."
+  },
+  "round_3": {
+    "name": "Super 7",
+    "teams": 7,
+    "matches": 21,
+    "advancement": "Top four advance to semifinals."
+  },
+  "semifinals": {
+    "matches": 2,
+    "pairings": [
+      "1 vs 4",
+      "2 vs 3"
+    ]
+  },
+  "final": {
+    "matches": 1
+  },
+  "sources": [
+    {
+      "publisher": "ICC",
+      "date": "2026-07-15",
+      "url": "https://www.icc-cricket.com/news/new-icc-men-s-cricket-world-cup-format-explained"
+    },
+    {
+      "publisher": "ICC",
+      "date": "2026-07-30",
+      "url": "https://www.icc-cricket.com/news/men-s-cricket-world-cup-2027-venues-and-brand-revealed"
+    }
+  ],
+  "important_note": "Official team groups and the final qualified 14-team field may not yet be fully published. Default simulations therefore use a clearly labelled model-seeded scenario unless an authoritative participant file is supplied. Official NRR cannot be simulated from a binary winner-only match model, so tied standings use points, wins, then pre-tournament model strength as a deterministic proxy."
+}
